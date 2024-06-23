@@ -1,0 +1,49 @@
+{
+  "name": "auto-changelog",
+  "version": "1.0.0",
+  "description": "-",
+  "main": "app.ts",
+  "type": "module",
+  "author": {
+    "name": "Carlos",
+    "email": "cxrlos@kenobi.dev"
+  },
+  "homepage": "https://github.com/CxrlosKenobi/auto-changelog",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:CxrlosKenobi/auto-changelog.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CxrlosKenobi/auto-changelog/issues"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/app.js",
+    "dev": "tsx watch src/app.ts"
+  },
+  "dependencies": {
+    "@actions/core": "^1.10.1",
+    "@typescript-eslint/eslint-plugin": "^7.13.1",
+    "eslint": "^9.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.8",
+    "typescript": "^5.4.3"
+  },
+  "typescript": {
+    "tsconfig": "tsconfig.json"
+  },
+  "exports": {
+    ".": "./dist/src/app.js"
+  },
+  "keywords": [
+    "changelog",
+    "actions",
+    "node"
+  ],
+  "engines": {
+    "node": ">=20.12.0"
+  },
+  "packageManager": "yarn@4.3.1",
+  "license": "MIT"
+}
