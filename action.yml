@@ -1,0 +1,11 @@
+name: "Changelog bot"
+description: "description here"
+author: "CxrlosKenobi"
+
+runs:
+  using: "node20"
+  main: "dist/app.js"
+
+branding:
+  icon: "activity"
+  color: "blue"
