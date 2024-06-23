@@ -1,0 +1,14 @@
+name: Changelog Workflow
+on: [pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Run Changelog Bot
+        uses: ./
+        with:
+          github_repo_token: ${{ secrets.GITHUB_TOKEN }}
+          openai_api_key: ${{ secrets.OPENAI_API_KEY }}
+

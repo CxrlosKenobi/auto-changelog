@@ -2,6 +2,20 @@ name: "Changelog bot"
 description: "description here"
 author: "CxrlosKenobi"
 
+inputs:
+  github_repo_token:
+    description: "GitHub repository scoped token"
+    required: true
+  openai_api_key:
+    description: "OpenAI API key"
+    required: true
+  
+outputs:
+  success:
+    description: "Success message"
+  error:
+    description: "Error message"
+
 runs:
   using: "node20"
   main: "dist/app.js"
