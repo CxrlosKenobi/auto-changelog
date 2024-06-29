@@ -1,0 +1,20 @@
+{
+  "pull_request": {
+    "number": 1,
+    "head": {
+      "ref": "feature-branch",
+      "sha": "790548f"
+    },
+    "base": {
+      "ref": "main",
+      "sha": "15c8ff9"
+    }
+  },
+  "repository": {
+    "full_name": "CxrlosKenobi/auto-changelog",
+    "owner": {
+      "login": "CxrlosKenobi"
+    },
+    "name": "auto-changelog"
+  }
+}
