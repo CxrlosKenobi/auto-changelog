@@ -3,7 +3,7 @@
 
 ### ➕ Added
 
-- 🌐 Arabic translation aeba790.
+- 🌐 Arabic translation (commit: aeba790).
 - 🌐 v1.1 Norwegian Bokmål translation (#383).
 - 🌐 v1.1 "Inconsistent Changes" Turkish translation (#347).
 - 🔧 Default to most recent versions available for each language.
